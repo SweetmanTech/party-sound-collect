@@ -4,7 +4,6 @@ import MadeBySweets from '../MadeBySweets';
 import Output from '../Output';
 import LandingPageHeader from './LandingPageHeader';
 import InputGroup from '../InputGroup';
-import AdvancedDropdown from '../AdvancedDropdown';
 
 const LandingPageContent = () => {
   const { proposalData } = useProvider();
@@ -22,7 +21,6 @@ const LandingPageContent = () => {
       )}
 
       <GenerateButton />
-      <AdvancedDropdown />
       <MadeBySweets />
     </div>
   );
