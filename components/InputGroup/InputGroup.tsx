@@ -13,7 +13,7 @@ const InputGroup = () => {
         onChange={(e: any) => setFundsRecipient(e.target.value)}
       />
       <Input
-        placeholder="zora collection (base)"
+        placeholder="sound collection (base)"
         value={collectionAddress}
         onChange={(e: any) => setCollectionAddress(e.target.value)}
       />

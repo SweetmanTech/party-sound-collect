@@ -266,6 +266,11 @@
     fflate "^0.7.3"
     string.prototype.codepointat "^0.2.1"
 
+"@soundxyz/sdk@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@soundxyz/sdk/-/sdk-7.1.0.tgz#a2a492ddc19b0ac988043c099e5b19abeb0b0d8a"
+  integrity sha512-B18CeqoMN70Xib1Uwcua7GoT1JKjPAp6QZ2IGV3hhbjUH9Cv87VHmGgpSCgw90Nm7KAnebp94SdHrocUEONnJA==
+
 "@swc/helpers@0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.2.tgz#85ea0c76450b61ad7d10a37050289eded783c27d"
@@ -339,18 +344,6 @@
     protobufjs "^7.0.0"
     rxjs "^7.8.0"
     undici "^5.8.1"
-
-"@zoralabs/protocol-deployments@*":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@zoralabs/protocol-deployments/-/protocol-deployments-0.1.4.tgz#48b66d38254c40d147abd37455f0796f8c34e155"
-  integrity sha512-Lobtbe8+qUAhbnhOn6rESmIm3T1sjCBj4onXquGmBGD9oezeQBpIwzZEzx7slpkT5Z2Y5WQqIzaP1LYZzzwtvQ==
-
-"@zoralabs/protocol-sdk@^0.5.16":
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/@zoralabs/protocol-sdk/-/protocol-sdk-0.5.16.tgz#ab2581510b1bcfc17065a12480883ecab0435ab2"
-  integrity sha512-D/czvKH/atCI+VYp7lbej3gTMTKmbBqupMAo5lvLWn0OetSXuchIIZLaN7qJKZPGK25qlc6GQWhD0PmFdwObcQ==
-  dependencies:
-    "@zoralabs/protocol-deployments" "*"
 
 abitype@1.0.0:
   version "1.0.0"

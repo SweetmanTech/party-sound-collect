@@ -1,8 +1,9 @@
 import { FrameMetadataType } from '@coinbase/onchainkit';
-export const TITLE = 'party zora collect.';
+export const TITLE = 'party sound collect';
+export const DESCRIPTION = 'bring your own party. collect on sound';
 export const FARCASTER_ID_REGISTRY = '0x00000000fc6c5f01fc30151999387bb99a9f489b';
 export const VERCEL_URL = process.env.NEXT_PUBLIC_FRAME_URL || 'http://localhost:3000';
-export const GITHUB_REPO = 'https://github.com/With-Fam/party-zora-collect';
+export const GITHUB_REPO = 'https://github.com/SweetmanTech/party-sound-collect';
 export const DEFAULT_FRAME = {
   buttons: [
     {
