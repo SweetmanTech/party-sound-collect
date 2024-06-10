@@ -1,19 +1,15 @@
 import getProposalData from '@/lib/party/getProposalData';
 import Button from '../Button';
 import { useProvider } from '@/providers/Provider';
+import getSoundMintCall from '@/lib/sound/getSoundMintCall';
+import { base } from 'viem/chains';
 
 const GenerateButton = () => {
   const { collectionAddress, saleStrategy, fundsRecipient, setProposalData, ethPrice, tokenId } =
     useProvider();
 
-  const handleClick = () => {
-    const response = getProposalData(
-      collectionAddress,
-      saleStrategy,
-      fundsRecipient,
-      ethPrice,
-      tokenId,
-    );
+  const handleClick = async () => {
+    const response = await getProposalData(collectionAddress, fundsRecipient);
     setProposalData(response);
   };
 
