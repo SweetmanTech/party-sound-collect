@@ -12,8 +12,6 @@ const getProposalData = async (
     collectionAddress,
     recipient,
   );
-  console.log('SWEETS newData HELLO', encodedBytecodeProposalData);
-
   const hexEncodedSelector = pad(toHex(ProposalType.ArbitraryCalls), {
     size: 4,
   });
